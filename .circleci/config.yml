@@ -13,7 +13,7 @@ jobs:
           name: "Install Dagger"
           command: |
             cd /usr/local
-            wget -O - https://dl.dagger.io/dagger/install.sh | sh
+            sudo wget -O - https://dl.dagger.io/dagger/install.sh | sudo sh
             cd -
       - run:
           name: "Run Dagger"
