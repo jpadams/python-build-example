@@ -19,7 +19,7 @@ jobs:
           name: "Run Dagger"
           command: |
             export DOCKER_BUILDKIT=1
-            dagger do build --log-format plain
+            dagger do build
 
 workflows:
   dagger-workflow:
